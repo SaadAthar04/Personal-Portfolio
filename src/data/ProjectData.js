@@ -1,49 +1,49 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/ykte-feature-graphic.png",
-    title: "YouKnowTheEnding",
+    img: "/bounce_house_360.png",
+    title: "Bounce House 360",
     description:
-      "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
-    tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
+      "A live website that provide bounce houses and various items as rentals in USA Market.",
+    tech_stack: ["JavaScript", "Velo", "Wix Studio"],
     github_url: "",
-    demo_url: "https://youknowtheending.net/",
+    demo_url: "https://www.bouncehouse360.com/",
   },
   {
-    img: "/renr-responsive.png",
-    title: "RENR Safety App",
+    img: "/buildbuddy.png",
+    title: "BuildBuddy",
     description:
-      "A safety application for the Renewable Resources Dept. of BCIT",
-    tech_stack: ["React", "Firebase"],
-    github_url: "",
-    demo_url: "https://renr-bcit.web.app/",
+      "A Flutter Based app that connects builders, homeowners, and vendors for seamless construction and home improvement collaborations.",
+    tech_stack: ["Flutter", "Firebase", "Android Studio"],
+    github_url: "https://github.com/umer1321/buildbuddyfyp",
+    demo_url: "",
   },
   {
-    img: "/mymind-responsive.png",
-    title: "MyMind",
+    img: "/learnify.png",
+    title: "Learnify",
     description:
-      "An app where users can purchase online therapy sessions and chat with their therapists.",
-    tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
-    github_url: "https://github.com/salesp07/MyMind---Copy",
-    demo_url: "https://mymindweb.vercel.app/",
+      "Empowering learners and educators through accessible and interactive online education.",
+    tech_stack: ["HTML", "CSS", "NodeJs/ExpressJs", "MongoDB", "Visual Studio Code"],
+    github_url: "https://github.com/ali-aj/learnify-website/tree/main",
+    demo_url: "",
   },
   {
-    img: "/pokedex-responsive.png",
-    title: "Pokedex",
+    img: "/grocery.jpg",
+    title: "Inventory Pro",
     description:
-      "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
-    tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/Pokedex-ReactApp",
-    demo_url: "https://pokedex-salesp07.netlify.app/",
+      "The Grocery management application is a Desktop-based platform that effectively handles and organizes the records of grocery store.",
+    tech_stack: ["C#", ".NET Framework", "SQL", "PL SQL", "Oracle", "Visual Studio Code"],
+    github_url: "https://github.com/SaadAthar04/Inventory-Management-System",
+    demo_url: "",
   },
   {
-    img: "/jobDetect.png",
-    title: "JobDetect",
+    img: "/poetica.png",
+    title: "Poetica",
     description:
-      "An app to detect if a job posting is a scam or not using its description.",
-    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/JobDetectNode",
-    demo_url: "https://jobdetective.onrender.com/",
+      "Poetica is an AI-powered poetry generator that uses a character-level LSTM model trained on ghazals scraped from Rekhta.",
+    tech_stack: ["Python", "Pytorch", "Numpy", "Streamlit", "Visual Studio Code"],
+    github_url: "https://github.com/SaadAthar04/Poetica",
+    demo_url: "",
   },
 ];
 
@@ -79,8 +79,8 @@ export const stackList = [
     name: "Git",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    name: "React Native",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg",
+    name: "Flutter",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
@@ -99,16 +99,16 @@ export const stackList = [
     name: "Python",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
-    name: "Flask",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original.svg",
+    name: "jQuery/Velo",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
     name: "C",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-    name: "Java",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+    name: "C++",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
@@ -119,15 +119,15 @@ export const stackList = [
     name: "Bootstrap",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
-    name: "Material UI",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg",
+    name: "Oracle",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
     name: "Figma",
   },
   {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg",
     name: "TailwindCSS",
   },
   {

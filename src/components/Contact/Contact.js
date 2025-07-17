@@ -8,7 +8,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 function Contact() {
   const [showTooltip, setShowTooltip] = useState(false);
   const copyToClipboard = () => {
-    navigator.clipboard.writeText("pedro.sales.muniz@gmail.com");
+    navigator.clipboard.writeText("saadathar55@gmail.com");
     setShowTooltip(true);
     setTimeout(() => {
       setShowTooltip(false);
@@ -24,7 +24,7 @@ function Contact() {
           <div className="BigCard">
             <Email>
               <div style={{ display: 'flex', alignItems: 'center', columnGap: '20px', rowGap: '10px', flexWrap: 'wrap', justifyContent: 'center' }} >
-                <span>pedro.sales.muniz@gmail.com</span>
+                <span>saadathar55@gmail.com</span>
                 <Tooltip
                   PopperProps={{
                     disablePortal: true,
@@ -38,19 +38,20 @@ function Contact() {
                   disableTouchListener
                   placement="bottom"
                 >
-                  <IconButton  onClick={copyToClipboard} >
-                    <MdContentCopy size={25} style={{ cursor: 'pointer', color: "#151418" }}/>
+                  <IconButton onClick={copyToClipboard} >
+                    <MdContentCopy size={25} style={{ cursor: 'pointer', color: "#151418" }} />
                   </IconButton>
                 </Tooltip>
               </div>
               <a
                 className="btn PrimaryBtn btn-shadow"
-                href="mailto:pedro.sales.muniz@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=saadathar55@gmail.com&su=Let%27s%20Connect&body=Hi%20Saad%2C%0AI%20would%20like%20to%20get%20in%20touch%20with%20you..."
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Send Email
+                Send Email via Gmail
               </a>
+
             </Email>
           </div>
         </ScrollAnimation>

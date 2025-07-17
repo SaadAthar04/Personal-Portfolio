@@ -15,33 +15,33 @@ function About() {
       <div className="Container">
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
-        <ScrollAnimation animateIn="fadeInLeft">
-          <Image
-            src="/man-svgrepo-com.svg"
-            alt="man-svgrepo"
-          />
-        </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInLeft">
+            <Image
+              src="/man-svgrepo-com.svg"
+              alt="man-svgrepo"
+            />
+          </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Pedro Muniz</strong>. I'm originally from Brazil and have been living in Canada for the past three years. During my time here, I gained valuable experience through various entry-level positions, which greatly enhanced my work ethic, communication skills, and adaptability.
-            </ScrollAnimation>
-
-            <br /><br />
-            
-            <ScrollAnimation animateIn="fadeInLeft">
-            My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue the Computer Systems Technology program. Despite its challenges, I remained determined and forged lasting friendships that supported me throughout this demanding program.
-            Throughout my studies at BCIT, I had the opportunity to engage in fascinating projects. Notably, I contributed to the development of the RENR Safety App and MyMind, projects that garnered recognition from my colleagues, instructors, and clients alike.
+              Hello! My name is <strong>Saad Athar</strong>. I'm originally from Pakistan and a graduate of FAST (National University of Computer and Emerging Sciences). Over time, I've cultivated a deep interest in backend development, building scalable and efficient systems. My early experiences in various entry-level roles helped shape a strong work ethic, adaptability, and effective communication.
             </ScrollAnimation>
 
             <br /><br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-              Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in web development and cross-platform mobile development.
+              My journey into the world of technology began with a passion for solving complex problems, which led me to pursue a degree in Computer Science at FAST. Throughout the program, I explored core computing concepts and developed backend solutions using modern technologies and frameworks. These projects not only deepened my technical knowledge but also strengthened my collaborative and analytical skills.
+            </ScrollAnimation>
+
+            <br /><br />
+
+            <ScrollAnimation animateIn="fadeInLeft">
+              Working with teams to bring real-world ideas to life has been incredibly rewarding. As a backend developer, I'm excited to continue growing and contributing to impactful web-based solutions, especially those that demand thoughtful architecture, data management, and performance optimization.
+
               <div className="tagline2">
                 I have become confident using the following technologies:
               </div>
             </ScrollAnimation>
-            
+
 
             <Technologies>
               {stackList.map((stack, index) => (
