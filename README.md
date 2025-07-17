@@ -1,5 +1,5 @@
 **Portfolio**
-Live Preview - [Click Here]([https://personal-portfolio-saaduu.vercel.app/])
+**Live Preview** – [Click Here](https://personal-portfolio-saaduu.vercel.app/)
 
 <br/>
 <br/>
